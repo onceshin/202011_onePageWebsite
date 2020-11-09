@@ -132,4 +132,39 @@ table {
     background: rgba(0,0,0,0.2);
     width: 100vw;
   }
+
   
+.course{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 10px;
+}
+
+.course-item{
+  width: 280px;
+  padding: 10px;
+  box-shadow: 3px 3px 5px silver;
+}
+
+.course-item-img{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-item h2{
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.course-item p{
+  line-height : 1.5;
+}
+
+.course-item ul{
+  list-style-type: circle;
+  padding-left: 40px;
+  line-height : 1.3;
+}
