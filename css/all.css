@@ -168,3 +168,33 @@ table {
   padding-left: 40px;
   line-height : 1.3;
 }
+
+.difference{
+  margin-bottom: 50px;
+}
+
+.difference table{
+  margin: 0 auto;
+}
+
+.difference h2{
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.difference th,.difference td{
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+  padding: 10px 75px;
+}
+
+.difference th{
+  font-weight: bold;
+  background: #f5f5f5;
+}
+
+.perfect{
+  color: #3cb371;
+}
