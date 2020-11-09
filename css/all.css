@@ -198,3 +198,58 @@ table {
 .perfect{
   color: #3cb371;
 }
+
+.connection{
+  background: linear-gradient(#00644b,#009771);
+  padding: 20px 30px;
+}
+
+.connection h2{
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 10px;
+}
+
+.connection form{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.detail{
+  display: flex;
+  flex-direction: column;
+}
+
+.detail label{
+  color: #fff;
+  margin-top: 10px;
+}
+
+.detail input{
+  width: 450px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.submitbtn{
+  text-align: right;
+}
+
+.submitbtn input{
+  width: 80px;
+  background: 	#66cdaa;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.submitbtn input:hover{
+  background: #00644b;
+}
