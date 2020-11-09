@@ -117,3 +117,19 @@ table {
     border-bottom: 3px solid #66cdaa;
   }
   
+  .banner{
+    background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png);
+    height: 346px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .banner h2{
+    font-size: 36px;
+    line-height: 1.5;
+    color: #fff;
+    padding: 30px;
+    background: rgba(0,0,0,0.2);
+    width: 100vw;
+  }
+  
