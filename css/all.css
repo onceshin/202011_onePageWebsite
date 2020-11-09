@@ -81,3 +81,39 @@ table {
     text-decoration: none;
   }
   
+  .header{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header h1 a{
+    background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/logo.png);
+    display: block;
+    width: 224px;
+    height: 50px;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .menu{
+    display: flex;
+    align-items:center;
+  }
+  
+  .menu li{
+    text-align: center;
+  }
+  
+  .menu li a{
+    text-decoration: none;
+    color:	#66cdaa;
+    display: block;
+    border-bottom: 3px solid #fff;
+    padding: 15px;
+  }
+  
+  .menu li a:hover{
+    border-bottom: 3px solid #66cdaa;
+  }
+  
