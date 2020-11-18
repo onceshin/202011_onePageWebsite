@@ -80,7 +80,12 @@ table {
     color: #00bfff;
     text-decoration: none;
   }
+
   
+  .facebook a:hover,.twitter a:hover{
+    font-weight: bold;
+  }
+
   .header{
     display: flex;
     justify-content: space-between;
@@ -219,6 +224,10 @@ table {
   margin-bottom: 10px;
 }
 
+.connection form textarea{
+  width: 400px;
+}
+
 .detail{
   display: flex;
   flex-direction: column;
@@ -237,11 +246,8 @@ table {
   padding: 10px;
 }
 
-.submitbtn{
-  text-align: right;
-}
-
-.submitbtn input{
+.detail .submitbtn{
+  align-self: flex-end;
   width: 80px;
   background: 	#66cdaa;
   color: #fff;
@@ -250,7 +256,7 @@ table {
   font-size: 16px;
 }
 
-.submitbtn input:hover{
+.submitbtn:hover{
   background: #00644b;
 }
 
